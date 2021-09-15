@@ -78,8 +78,8 @@ public class HttpRequestTest extends HttpServlet {
 		headers.put("Content-Type", "application/json");
 		
 		List<String> javaKeywords = new ArrayList<String>(); //집어넣을 값이 다 String이니까 제네릭을 String으로 해줘도됨.(섞여있으면 Object로 잡아줘야됨)
-		javaKeywords.add("스프링");
-		javaKeywords.add("스프링부트");
+		javaKeywords.add("서블릿");
+		javaKeywords.add("JSP");
 		
 		List<String> pythonKeywords = new ArrayList<String>();
 		pythonKeywords.add("장고");
